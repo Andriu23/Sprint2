@@ -1,0 +1,165 @@
+/*--General--*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: orange;
+}
+.Enlace{
+    background-color: aquamarine;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+a{
+    width: 10rem;
+    color:navy;
+    font-size: small;
+    text-decoration: none;
+    background-color: aquamarine;
+}
+#logo{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 30rem;
+    background-color: aquamarine;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    margin-bottom: 1rem;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+}
+/*--Home--*/
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex center;
+}
+#play{
+    width: 60rem;
+    height: 12rem;
+    object-fit: cover;
+    align-items: center;
+    margin: 1rem;
+}
+.Home{
+    width: 70rem;
+    display: flex;
+    justify-content: flex end;
+    padding-bottom: 2rem;
+}
+.Home p{
+    width: 30rem;
+    align-self: center;
+    margin-left: 15rem;
+}
+#guys{
+    height: 12rem;
+    object-fit: contain;
+    margin-left: 8rem;
+} 
+/*--About Us*/
+.up, .center, .down{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.4rem;
+}
+.up img, .center img, .down img{
+    width: 11rem;
+    height: 9rem;
+    object-fit: contain;
+}
+.up p, .center p, .down p{
+    width: 25rem;
+    padding-left: 5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+/*--Contact--*/
+#Two{
+    width: 45rem;
+    height: 22rem;
+}
+.tiempo{
+    height: 3rem;
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 0.5rem;
+}
+.referencia{
+    width: 40rem;
+    height: 2rem;
+    display: flex;      
+    align-items: center;
+    background-color: orange;
+}
+#E-MSN, #Call{
+    width: 80rem;
+    background-color: orange;
+    text-align: center;
+}
+/*--More information--*/
+div img{
+    width: 15rem;
+    height: 12rem;
+    object-fit: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#Parrafo_1, #Parrafo_2{
+    width: 15rem;
+    height: 12rem;
+    object-fit: contain;
+}
+.Lista1, .Lista2{
+    display: flex;
+    justify-content: flex center;
+    align-items: center;
+    width: 60rem;
+    margin: 0.5rem;
+}
+.Inicio, .Final{
+    padding-left: 5rem;
+}
+/*--benefits--*/  
+.table{
+    display: flex;
+}
+table{
+    background-color: antiquewhite;
+    width: 30rem;
+    height: 20rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+tr{
+    background-color: rosybrown;
+}
+th{
+    background-color: yellowgreen;
+}
+td{
+    background-color: cornsilk;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
