@@ -117,30 +117,6 @@ main{
     text-align: center;
 }
 /*--More information--*/
-div img{
-    width: 15rem;
-    height: 12rem;
-    object-fit: contain;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-#Parrafo_1, #Parrafo_2{
-    width: 15rem;
-    height: 12rem;
-    object-fit: contain;
-}
-.Lista1, .Lista2{
-    display: flex;
-    justify-content: flex center;
-    align-items: center;
-    width: 60rem;
-    margin: 0.5rem;
-}
-.Inicio, .Final{
-    padding-left: 5rem;
-}
-/*--benefits--*/  
 .table{
     display: flex;
 }
@@ -162,4 +138,32 @@ td{
     justify-content: center;
     align-items: center;
     padding: 1rem;
+}
+/*--benefits--*/  
+.Benefits-div{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    margin-left: 30rem;
+}
+div img{
+    width: 15rem;
+    height: 12rem;
+    object-fit: contain;
+    display: flex;
+}
+#Parrafo_1, #Parrafo_2{
+    width: 15rem;
+    height: 12rem;
+    object-fit: contain;
+}
+.Lista1, .Lista2{
+    display: flex;
+    justify-content: flex center;
+    align-items: center;
+    width: 60rem;
+    margin: 0.5rem;
+}
+.Inicio, .Final{
+    padding-left: 5rem;
 }
